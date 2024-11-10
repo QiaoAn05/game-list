@@ -1,21 +1,21 @@
 import styled from 'styled-components';
-import navMenu from "/assets/svg/navMenu.svg"
-import wallet from "/assets/svg/wallet.svg"
-import userHead from "/assets/svg/userHead.svg"
+import navMenuIcon from "/assets/svg/navMenuIcon.svg"
+import walletIcon from "/assets/svg/walletIcon.svg"
+import userHeadIcon from "/assets/svg/userHeadIcon.svg"
 import logo from "/assets/logos/F1M5_Logo.webp"
 
 export default function Header() {
   return (
     <HeaderStyled>
         <div className='header-left'>
-        <img src={navMenu} alt="nav menu"/>
+        <img src={navMenuIcon} alt="nav menu icon"/>
         <img src={logo} alt="logo" />
         </div>
         <div  className='header-right'>
-        <img src={wallet} alt="wallet icon" />
+        <img src={walletIcon} alt="wallet icon" />
         <span>$1,990.6</span>
         <span>|</span>
-        <img src={userHead} alt="user head icon" />
+        <img src={userHeadIcon} alt="user head icon" />
         </div>
 
     </HeaderStyled>
