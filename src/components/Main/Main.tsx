@@ -7,7 +7,7 @@ export default function Main() {
 }
 
 const MainStyled = styled.main`
-  background-color: gray;
+  /* background-color: white; */
   flex: 1;
   padding: 10px;
 `;
