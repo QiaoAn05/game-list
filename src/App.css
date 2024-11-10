@@ -49,12 +49,14 @@
 #root {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-color: white;
   height: 100vh;
 }
 
 @media (max-width: 768px) {
   #root {
-    background-color: lightyellow;
+    /* background-color: lightyellow; */
+    background-color: white;
   }
 }
